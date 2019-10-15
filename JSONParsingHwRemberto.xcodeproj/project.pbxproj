@@ -13,6 +13,8 @@
 		F73074962356208E00F1D429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73074942356208E00F1D429 /* Main.storyboard */; };
 		F73074982356208F00F1D429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F73074972356208F00F1D429 /* Assets.xcassets */; };
 		F730749B2356208F00F1D429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F73074992356208F00F1D429 /* LaunchScreen.storyboard */; };
+		F73074A52356214B00F1D429 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F73074A42356214B00F1D429 /* NetworkManager.swift */; };
+		F73074A92356232500F1D429 /* PokemonExample.json in Resources */ = {isa = PBXBuildFile; fileRef = F73074A82356232500F1D429 /* PokemonExample.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F73074972356208F00F1D429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F730749A2356208F00F1D429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F730749C2356208F00F1D429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F73074A42356214B00F1D429 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F73074A82356232500F1D429 /* PokemonExample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PokemonExample.json; path = ../../PokemonExample.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		F730748D2356208E00F1D429 /* JSONParsingHwRemberto */ = {
 			isa = PBXGroup;
 			children = (
+				F73074A82356232500F1D429 /* PokemonExample.json */,
 				F730748E2356208E00F1D429 /* AppDelegate.swift */,
 				F73074902356208E00F1D429 /* SceneDelegate.swift */,
 				F73074922356208E00F1D429 /* ViewController.swift */,
@@ -63,6 +68,7 @@
 				F73074972356208F00F1D429 /* Assets.xcassets */,
 				F73074992356208F00F1D429 /* LaunchScreen.storyboard */,
 				F730749C2356208F00F1D429 /* Info.plist */,
+				F73074A42356214B00F1D429 /* NetworkManager.swift */,
 			);
 			path = JSONParsingHwRemberto;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73074A92356232500F1D429 /* PokemonExample.json in Resources */,
 				F730749B2356208F00F1D429 /* LaunchScreen.storyboard in Resources */,
 				F73074982356208F00F1D429 /* Assets.xcassets in Resources */,
 				F73074962356208E00F1D429 /* Main.storyboard in Resources */,
@@ -138,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F73074A52356214B00F1D429 /* NetworkManager.swift in Sources */,
 				F73074932356208E00F1D429 /* ViewController.swift in Sources */,
 				F730748F2356208E00F1D429 /* AppDelegate.swift in Sources */,
 				F73074912356208E00F1D429 /* SceneDelegate.swift in Sources */,
